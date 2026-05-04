@@ -10,8 +10,13 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
+    alias: [
+      // Linux/Vercel is case-sensitive; sources live in src/Components (capital C)
+      {
+        find: '@/components',
+        replacement: path.resolve(__dirname, './src/Components'),
+      },
+      { find: '@', replacement: path.resolve(__dirname, './src') },
+    ],
   },
 })
