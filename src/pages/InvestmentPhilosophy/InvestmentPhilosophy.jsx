@@ -11,7 +11,7 @@ const PILLARS = [
   {
     icon: Search,
     title: 'Bottom-up research',
-    text: 'We build conviction company by company — reading filings, stress-testing assumptions, and debating theses as a team.',
+    text: 'We build conviction company by company, reading filings, stress-testing assumptions, and debating theses as a team.',
   },
   {
     icon: Target,
@@ -26,7 +26,7 @@ const PILLARS = [
   {
     icon: BookOpen,
     title: 'Transparency',
-    text: 'You should understand why you own what you own — in plain language, with documentation you can revisit.',
+    text: 'You should understand why you own what you own, in plain language, with documentation you can revisit.',
   },
 ]
 
@@ -35,7 +35,7 @@ export default function InvestmentPhilosophy() {
     <>
       <SEO
         title="Investment philosophy"
-        description="Metaarth Capital investment philosophy — GARP, bottom-up research, risk-aware portfolio construction for sophisticated investors."
+        description="Metaarth Capital investment philosophy, GARP, bottom-up research, risk-aware portfolio construction for sophisticated investors."
         path="/investment-philosophy"
       />
 
@@ -43,12 +43,12 @@ export default function InvestmentPhilosophy() {
         eyebrow="How we think"
         title="Discipline,"
         titleHighlight="not drama"
-        description="Our philosophy is built for long horizons: research-driven stock selection, sensible valuations, and processes that survive bad days — not just good headlines."
+        description="Our philosophy is built for long horizons: research-driven stock selection, sensible valuations, and processes that survive bad days, not just good headlines."
         imageSrc={BRAND_IMG.focus}
         imageAlt="Professionals reviewing investment research and documents together"
       >
         <blockquote className="mt-8 border-l-4 border-accent-bright pl-4 text-sm italic leading-relaxed text-stone-600 dark:text-stone-400">
-          “Price is what you pay. Value is what you get.” — Warren Buffett
+          “Price is what you pay. Value is what you get.”, Warren Buffett
         </blockquote>
       </PageHero>
 
@@ -123,7 +123,7 @@ export default function InvestmentPhilosophy() {
             </h2>
             <p className="mt-4 leading-relaxed text-muted dark:text-stone-400">
               The best ideas survive challenge. Our research culture encourages
-              dissent, second opinions, and updating views when facts change —
+              dissent, second opinions, and updating views when facts change
               without abandoning a documented process.
             </p>
             <Button asChild className="mt-8">

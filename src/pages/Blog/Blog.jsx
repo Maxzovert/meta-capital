@@ -18,7 +18,7 @@ function BlogContent() {
         title="Ideas for"
         titleHighlight="thoughtful"
         titleRest="investors"
-        description="Educational articles on mutual funds, planning, and markets — not personalized recommendations. Same craft as our home page: clarity, colour, and respect for your time."
+        description="Educational articles on AIF structures, risk, and market context, not personalized recommendations. Same craft as our home page: clarity, colour, and respect for your time."
         imageSrc={BRAND_IMG.focus}
         imageAlt="Professionals reviewing charts and documents"
       />
@@ -70,7 +70,7 @@ export default function Blog() {
     <>
       <SEO
         title="Insights"
-        description="Mutual funds, investment tips, and market insights — Metaarth Capital blog."
+        description="AIF insights, risk frameworks, and market perspectives, Metaarth Capital blog."
         path="/blog"
       />
       <BlogContent />
