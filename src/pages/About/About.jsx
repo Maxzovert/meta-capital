@@ -38,10 +38,10 @@ export default function About() {
         eyebrow="Who we are"
         title="About"
         titleHighlight="Metaarth"
-        titleRest="Capital"
+        titleRest=" Capital"
         description="Professional investment management with regulatory awareness, research discipline, and clear communication, built for long-term alignment with sophisticated investors."
-        imageSrc={BRAND_IMG.handshake}
-        imageAlt="Business partners shaking hands"
+        imageSrc={BRAND_IMG.city}
+        imageAlt="Modern company infrastructure and institutional office district"
       >
         <Button asChild className="mt-8 gap-2">
           <Link to="/contact">Get in touch</Link>

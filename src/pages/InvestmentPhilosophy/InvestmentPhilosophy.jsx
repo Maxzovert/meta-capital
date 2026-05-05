@@ -102,8 +102,8 @@ export default function InvestmentPhilosophy() {
             className="overflow-hidden rounded-3xl ring-2 ring-accent/20"
           >
             <img
-              src={BRAND_IMG.meeting}
-              alt="Team discussion around investment strategy"
+              src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+              alt="Indian professionals in an office meeting discussing investment documents"
               className="aspect-[4/3] w-full object-cover"
               width={800}
               height={600}

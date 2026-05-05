@@ -45,8 +45,8 @@ export default function AIF() {
         title="Alternative Investment"
         titleHighlight="Fund"
         description="A Category III AIF offering for qualified investors seeking a regulated, research-driven equity mandate, with the transparency and rigour you expect from an institutional partner."
-        imageSrc={BRAND_IMG.city}
-        imageAlt="Modern city skyline, symbolic of long-term growth and institutions"
+        imageSrc="https://images.unsplash.com/photo-1623151830198-5c3c0a2cf2f4?auto=format&fit=crop&w=1400&q=80"
+        imageAlt="Capital allocation concept with Indian currency notes"
       >
         <p className="mt-4 text-sm font-medium text-accent dark:text-accent-bright">
           Information only, not an offer. Suitability and eligibility apply.

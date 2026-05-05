@@ -22,8 +22,8 @@ export default function Performance() {
         titleHighlight="outcomes"
         titleRest="with honest limits"
         description="We believe sophisticated investors deserve clear reporting and conservative language. Markets are uncertain; labels like ‘outperformance’ should be earned in context, not marketing."
-        imageSrc={BRAND_IMG.charts}
-        imageAlt="Financial charts and market data on screens, illustrative only"
+        imageSrc="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80"
+        imageAlt="Financial growth chart on a market screen"
       >
         <div className="mt-8 flex flex-wrap gap-3">
           <Button asChild variant="accent" size="sm">
