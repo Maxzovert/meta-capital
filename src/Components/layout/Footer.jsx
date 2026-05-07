@@ -24,7 +24,11 @@ const footerNav = [
   },
   {
     title: 'Contact',
-    links: [{ label: 'Contact us', to: '/contact' }],
+    links: [
+      { label: 'Contact us', to: '/contact' },
+      { label: 'Terms & conditions', to: '/terms-and-conditions' },
+      { label: 'Privacy policy', to: '/privacy-policy' },
+    ],
   },
 ]
 

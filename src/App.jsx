@@ -12,6 +12,8 @@ import AIF from '@/pages/AIF/AIF'
 import Journey from '@/pages/Journey/Journey'
 import Team from '@/pages/Team/Team'
 import Contact from '@/pages/Contact/Contact'
+import Terms from '@/pages/Terms/Terms'
+import Privacy from '@/pages/Privacy/Privacy'
 import Blog from '@/pages/Blog/Blog'
 import { PageSkeleton } from '@/components/ui/skeleton'
 
@@ -33,6 +35,8 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/investment-products" element={<InvestmentProducts />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/terms-and-conditions" element={<Terms />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/blog" element={<Blog />} />
           <Route
             path="/blog/:slug"
